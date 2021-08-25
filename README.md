@@ -231,6 +231,28 @@ Data is returned to the user in JSON format
     <td><pre>offset</pre></td>
     <td>Search radius in kilometer</td>
   </tr>
+  <tr>
+    <td rowspan="5"><pre>/soildata/insitutestprofile/</pre></td>
+    <td rowspan="5">Retrieves in-situ tests in a band around a profile line</td>
+    <td><pre>lat1</pre></td>
+    <td>Latitude of the first point on the profile line</td>
+  </tr>
+  <tr>
+    <td><pre>lon1</pre></td>
+    <td>Longitude of the first point on the profile line</td>
+  </tr>
+  <tr>
+    <td><pre>lat2</pre></td>
+    <td>Latitude of the second point on the profile line</td>
+  </tr>
+  <tr>
+    <td><pre>lon2</pre></td>
+    <td>Longitude of the second point on the profile line</td>
+  </tr>
+  <tr>
+    <td><pre>offset</pre></td>
+    <td>Search band width in meters</td>
+  </tr>
 </tbody>
 </table>
 
@@ -530,6 +552,28 @@ Data is returned to the user in JSON format
   <tr>
     <td><pre>offset</pre></td>
     <td>Search radius in kilometer</td>
+  </tr>
+  <tr>
+    <td rowspan="5"><pre>/soildata/soilprofileprofile/</pre></td>
+    <td rowspan="5">Retrieves soil profiles in a band around a profile line</td>
+    <td><pre>lat1</pre></td>
+    <td>Latitude of the first point on the profile line</td>
+  </tr>
+  <tr>
+    <td><pre>lon1</pre></td>
+    <td>Longitude of the first point on the profile line</td>
+  </tr>
+  <tr>
+    <td><pre>lat2</pre></td>
+    <td>Latitude of the second point on the profile line</td>
+  </tr>
+  <tr>
+    <td><pre>lon2</pre></td>
+    <td>Longitude of the second point on the profile line</td>
+  </tr>
+  <tr>
+    <td><pre>offset</pre></td>
+    <td>Search band width in meters</td>
   </tr>
   <tr>
     <td rowspan="4"><pre>/soildata/soillayer/</pre></td>
