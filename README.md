@@ -8,9 +8,9 @@ The application allow parametric retrieval of data through an Application Progra
 
 This repository provides basic examples of accessing data through the API.
 
-The database application is described in a draft journal publication submitted to Computers & Geotechnics.
+The database application is described in an <a href="https://link.springer.com/article/10.1007/s11440-022-01551-3">Open Access journal paper</a> in the journal Acta Geotechnica.
 
-Example of data retrieval are provided in the ``notebooks`` subdirectory, which contains Jupyter notebooks with example of data retrieval.
+Example of data retrieval are provided in the ``notebooks`` subdirectory, which contains Jupyter notebooks with example of data retrieval. Both the detailed workflow of retrieving data using the ``requests`` package and a more concise workflow with the Python package ``owimetadatabase_soilapi`` are explained. The ``owimetadatabase_soilapi`` package can be found <a href="https://github.com/OWI-Lab/owimetadatabase_soilapi">here</a>.
 
 Data sources
 -------------------------
@@ -18,6 +18,8 @@ Data sources
 Geotechnical data from the Dutch <a href="https://offshorewind.rvo.nl/">RVO sites</a> is shared under a Creative Commons licence (4.0 CC BY). 
 
 Geotechnical data from three <a href="https://pinta.bsh.de/?lang=en">BSH sites</a> in Germany is also shared.
+
+Crown Estate offshore wind farm data is shared from <a href="https://www.marinedataexchange.co.uk/search?searchQuery=geotechnical">Marine Data Exchange</a>.
 
 Public-domain data on offshore wind turbine locations and detailed monopile geometry is not available.
 
